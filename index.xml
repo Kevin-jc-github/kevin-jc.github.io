@@ -2,17 +2,275 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Jiancong(Kevin) Zhu</title>
-        <link>https://kevin-jc.github.io/</link>
+        <link>http://localhost:1313/</link>
         <description>Recent content on Jiancong(Kevin) Zhu</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Jiancong Zhu</copyright>
-        <lastBuildDate>Fri, 04 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kevin-jc.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 06 Oct 2024 23:36:34 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Documentation_of_Website</title>
+        <link>http://localhost:1313/p/documentation_of_website/</link>
+        <pubDate>Sun, 06 Oct 2024 23:36:34 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/documentation_of_website/</guid>
+        <description>&lt;h1 id=&#34;creating-your-personal-website-with-the-hugo-stack-theme&#34;&gt;Creating Your Personal Website with the Hugo Stack Theme
+&lt;/h1&gt;&lt;p&gt;This guide will walk you through the steps to create your personal website using the Hugo Stack theme. The Stack theme provides a modern and minimalist design, suitable for personal blogs and project portfolios.&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites
+&lt;/h2&gt;&lt;p&gt;Make sure you have the following installed on your system:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hugo&lt;/strong&gt; (version 0.62 or higher)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you don&amp;rsquo;t have Hugo installed, you can follow &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/installing/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&amp;rsquo;s installation guide&lt;/a&gt; to set it up.&lt;/p&gt;
+&lt;h2 id=&#34;step-1-create-a-new-hugo-site&#34;&gt;Step 1: Create a New Hugo Site
+&lt;/h2&gt;&lt;p&gt;Start by creating a new Hugo site using the command below:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo new site my-website
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This command will create a new folder named &lt;code&gt;my-website&lt;/code&gt; containing the basic structure for your Hugo website.&lt;/p&gt;
+&lt;h2 id=&#34;step-2-add-the-stack-theme&#34;&gt;Step 2: Add the Stack Theme
+&lt;/h2&gt;&lt;p&gt;Navigate to your project folder and add the Stack theme as a submodule:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; my-website
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Alternatively, you can clone the repository directly:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git clone https://github.com/CaiJimmy/hugo-theme-stack.git themes/hugo-theme-stack
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;step-3-configure-the-theme&#34;&gt;Step 3: Configure the Theme
+&lt;/h2&gt;&lt;p&gt;To use the Stack theme, update the &lt;code&gt;config.toml&lt;/code&gt; file in your project root directory:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;theme&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;hugo-theme-stack&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;You can also use the sample configuration provided by the theme as a starting point. Copy the &lt;code&gt;config&lt;/code&gt; folder from the theme to your project:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ cp -r themes/hugo-theme-stack/exampleSite/config ./
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will copy a pre-configured &lt;code&gt;config&lt;/code&gt; directory to your project, which you can edit to customize your site.&lt;/p&gt;
+&lt;h2 id=&#34;step-4-add-content&#34;&gt;Step 4: Add Content
+&lt;/h2&gt;&lt;p&gt;Now that the theme is set up, you can start adding content to your website. Hugo uses Markdown files to create pages and posts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a new post&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo new posts/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This command will create a new Markdown file in the &lt;code&gt;content/posts&lt;/code&gt; directory. Open it and edit the front matter and content as desired.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Create a new page&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo new about.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will create an &lt;code&gt;about.md&lt;/code&gt; file in the &lt;code&gt;content&lt;/code&gt; directory for your About page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;step-5-customize-your-site&#34;&gt;Step 5: Customize Your Site
+&lt;/h2&gt;&lt;p&gt;The Stack theme offers several configuration options to personalize your website. Edit the &lt;code&gt;config.toml&lt;/code&gt; or &lt;code&gt;config/_default/&lt;/code&gt; files to change settings such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Site Title&lt;/strong&gt;: Set your website&amp;rsquo;s name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Social Links&lt;/strong&gt;: Add links to your social profiles (GitHub, LinkedIn, etc.).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Theme Settings&lt;/strong&gt;: Change theme colors, fonts, and other visual elements.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Refer to the &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;theme documentation&lt;/a&gt; for more details on configuration options.&lt;/p&gt;
+&lt;h2 id=&#34;step-6-run-your-site-locally&#34;&gt;Step 6: Run Your Site Locally
+&lt;/h2&gt;&lt;p&gt;To preview your site locally, use the Hugo server command:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Navigate to &lt;code&gt;http://localhost:1313&lt;/code&gt; in your browser to see your website in action. The &lt;code&gt;-D&lt;/code&gt; flag ensures that draft content is also rendered.&lt;/p&gt;
+&lt;h2 id=&#34;step-7-deploy-your-site&#34;&gt;Step 7: Deploy Your Site
+&lt;/h2&gt;&lt;p&gt;Once you&amp;rsquo;re happy with your website, you can build it for deployment using:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The generated static files will be placed in the &lt;code&gt;public&lt;/code&gt; directory. You can deploy these files to your preferred hosting service, such as GitHub Pages, Netlify, or Vercel.&lt;/p&gt;
+&lt;p&gt;For GitHub Pages, you can push the content of the &lt;code&gt;public&lt;/code&gt; directory to your &lt;code&gt;gh-pages&lt;/code&gt; branch:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git add public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;Deploy site&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;$ git subtree push --prefix public origin gh-pages
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;additional-resources&#34;&gt;Additional Resources
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/documentation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack Theme Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With these steps, you can create a beautiful and functional personal website using the Hugo Stack theme. Enjoy building your site, and happy blogging!&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Project2_E_Commerce_Flash_Sale_Platform</title>
+        <link>http://localhost:1313/p/project2_e_commerce_flash_sale_platform/</link>
+        <pubDate>Sun, 06 Oct 2024 22:31:13 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/project2_e_commerce_flash_sale_platform/</guid>
+        <description>&lt;h2 id=&#34;e-commerce-flash-sale-platform&#34;&gt;E-commerce Flash Sale Platform
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Redis, RocketMQ, MyBatis, Git&lt;br&gt;
+&lt;strong&gt;Duration:&lt;/strong&gt; Mar 2023 - May 2023&lt;/p&gt;
+&lt;p&gt;The E-commerce Flash Sale Platform is built to handle high-concurrency flash sale events effectively. The system uses SpringBoot as the backbone with Redis for caching and RocketMQ for efficient message queuing, ensuring reliable and scalable performance during high-traffic periods.&lt;/p&gt;
+&lt;p&gt;I implemented optimizations for system performance that made it capable of handling the surge in traffic typical of flash sales. The focus was on ensuring stability and reliability, even during high-load situations. This was achieved by managing caching strategies and leveraging asynchronous message queues to decouple system components, allowing them to process requests more efficiently.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Projec1_TrainTicSys</title>
+        <link>http://localhost:1313/p/projec1_trainticsys/</link>
+        <pubDate>Sun, 06 Oct 2024 22:28:12 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/projec1_trainticsys/</guid>
+        <description>&lt;h1 id=&#34;project1_trainticsys&#34;&gt;Project1_TrainTicSys
+&lt;/h1&gt;&lt;h2 id=&#34;trainticketsys&#34;&gt;TrainTicketSys
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Spring Cloud, Apache RocketMQ, Redis, Vue.js, Git&lt;br&gt;
+&lt;strong&gt;Duration:&lt;/strong&gt; May 2024 - Jul 2024&lt;/p&gt;
+&lt;p&gt;TrainTicketSys is a comprehensive railway ticketing system designed with modern microservice architecture using SpringBoot 3, SpringCloud Alibaba, and JDK 17. The system allows users to register as members, search for available tickets, and complete bookings seamlessly.&lt;/p&gt;
+&lt;p&gt;I optimized the system to improve response time and throughput during peak usage, achieving a 25x increase in performance by refining high-concurrency scenarios. Additionally, I resolved cache and database consistency issues to ensure data accuracy. Leveraging Apache RocketMQ&amp;rsquo;s delayed messaging, I implemented automatic order cancellation for unpaid tickets after a 10-minute window. To safeguard the booking process, I added token and CAPTCHA mechanisms, significantly reducing server load from automated ticket requests.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Resume</title>
+        <link>http://localhost:1313/p/resume/</link>
+        <pubDate>Sun, 06 Oct 2024 20:46:29 -0500</pubDate>
+        
+        <guid>http://localhost:1313/p/resume/</guid>
+        <description>&lt;h1 id=&#34;jiancong-zhu&#34;&gt;Jiancong Zhu
+&lt;/h1&gt;&lt;p&gt;📞 949-867-8697 | 📧 &lt;a class=&#34;link&#34; href=&#34;mailto:jiancoz@u.northwestern.edu&#34; &gt;jiancoz@u.northwestern.edu&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/jiancong-zhu-0397b2224/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinkedIn&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://github.com/Kevin-jc-github&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education
+&lt;/h2&gt;&lt;h3 id=&#34;northwestern-university-chicago-il&#34;&gt;Northwestern University, Chicago, IL
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Master of Science in Accelerated Data Science&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Expected Graduation: Aug 2025&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;university-of-california-irvine-irvine-ca&#34;&gt;University of California, Irvine, Irvine, CA
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Engineering&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Sep 2020 – Jun 2024&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Related Coursework:&lt;/strong&gt; Operating System, Computer Network, Database, Data Structures and Algorithms, Digital Systems&lt;/p&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, Python, C/C++, SQL, JavaScript, HTML/CSS, R&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frameworks:&lt;/strong&gt; SpringBoot, Vue, React, Node.js, Flask, MyBatis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Databases:&lt;/strong&gt; MySQL, MongoDB&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Middlewares:&lt;/strong&gt; Redis, Apache RocketMQ, Sentinel from Alibaba&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Git, Spring Cloud, VS Code, Visual Studio, IntelliJ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience
+&lt;/h2&gt;&lt;h3 id=&#34;apexus-tech&#34;&gt;Apexus-Tech
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Software Development Engineer Intern&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;July 2024 – Oct 2024, Jersey City, New Jersey&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed and backtested quantitative trading strategies using the Backtrader framework, and implemented trade execution via the Interactive Brokers API.&lt;/li&gt;
+&lt;li&gt;Designed and improved a Moving Average Crossover trading strategy, conducted real-time stock trading tests in a simulated market environment, recorded and analyzed the strategy’s performance, and performed optimization adjustments.&lt;/li&gt;
+&lt;li&gt;Researched and deployed the Grafana data visualization tool, exploring differences between Grafana&amp;rsquo;s local deployment and cloud service versions, evaluating their pros and cons in terms of cost, performance, and usability. Integrated it with MySQL to achieve real-time visualization of financial data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;analogix-semiconductor&#34;&gt;Analogix Semiconductor
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;IC Verification Engineer Intern&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;July 2022 – Sep 2022, Suzhou, China&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and implemented verification test cases for ASIC design using SystemVerilog and UVM framework.&lt;/li&gt;
+&lt;li&gt;Evaluated the performance of IP modules, analyzed timing and power data, and provided optimization suggestions to enhance performance.&lt;/li&gt;
+&lt;li&gt;Corrected random test case failures through regression testing, gaining real-world debugging experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-projects&#34;&gt;Related Projects
+&lt;/h2&gt;&lt;h3 id=&#34;trainticketsys&#34;&gt;TrainTicketSys
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Spring Cloud, Apache RocketMQ, Redis, Vue.js, Git&lt;br&gt;
+&lt;em&gt;May 2024 – Jul 2024&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a railway ticketing system with infrastructure based on JDK 17, SpringBoot 3, and SpringCloud Alibaba, implementing functionalities for member registration, ticket inquiry, and ticket booking.&lt;/li&gt;
+&lt;li&gt;Optimized response time and throughput during high concurrency ticket booking scenarios, achieving a 25x increase in system performance.&lt;/li&gt;
+&lt;li&gt;Resolved cache and database consistency issues.&lt;/li&gt;
+&lt;li&gt;Utilized Apache RocketMQ’s delayed message feature to enable automatic order cancellation for tickets not paid within 10 minutes.&lt;/li&gt;
+&lt;li&gt;Implemented token and CAPTCHA mechanisms to prevent automated ticket booking during high concurrency periods, reducing server load.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;e-commerce-flash-sale-platform&#34;&gt;E-commerce Flash Sale Platform
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Redis, RocketMQ, MyBatis, Git&lt;br&gt;
+&lt;em&gt;Mar 2023 – May 2023&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed an e-commerce platform capable of efficiently handling high-concurrency flash sale events.&lt;/li&gt;
+&lt;li&gt;Implemented caching with Redis and message queuing with Apache RocketMQ to enhance system performance.&lt;/li&gt;
+&lt;li&gt;Optimized system performance for high concurrency scenarios.&lt;/li&gt;
+&lt;li&gt;Managed high traffic during flash sales, ensuring the stability and reliability of the system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;campfinder&#34;&gt;CampFinder
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Node.js, Express, MongoDB, Bootstrap, Passport.js, Git&lt;br&gt;
+&lt;em&gt;Feb 2022 – Apr 2022&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a comprehensive website for creating and managing camping sites using a CRUD design pattern.&lt;/li&gt;
+&lt;li&gt;Developed user features, including user registration and a review system for camping sites, enhancing user interaction.&lt;/li&gt;
+&lt;li&gt;Utilized Node.js and Express.js for backend development, MongoDB for database management, and Bootstrap for optimizing responsive frontend layouts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;interests&#34;&gt;Interests
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Gym, piano, saxophone, skiing, swimming, hiking, table tennis&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>About</title>
-        <link>https://kevin-jc.github.io/about/</link>
+        <link>http://localhost:1313/about/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://kevin-jc.github.io/about/</guid>
+        <guid>http://localhost:1313/about/</guid>
         <description>&lt;p&gt;Hi, I&amp;rsquo;m Jiancong Zhu, a passionate software engineer with a focus on backend development and data science. I hold a Master&amp;rsquo;s in Accelerated Data Science from Northwestern University and a Bachelor&amp;rsquo;s in Computer Engineering from UC Irvine.&lt;/p&gt;
 &lt;p&gt;I have strong experience in developing scalable systems, with skills in Java, Python, and C++. My expertise includes working with frameworks like SpringBoot, Vue, and React, as well as optimizing high-concurrency platforms. I have worked on quantitative trading strategies, data visualization, and real-time system performance optimization.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m particularly skilled in leveraging technologies like Redis, Apache RocketMQ, and Grafana to solve complex technical challenges. I&amp;rsquo;m constantly exploring ways to improve system efficiency and deliver impactful solutions. In my spare time, I enjoy playing piano, skiing, and exploring the outdoors.&lt;/p&gt;
@@ -20,18 +278,18 @@
         </item>
         <item>
         <title>Links</title>
-        <link>https://kevin-jc.github.io/links/</link>
+        <link>http://localhost:1313/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://kevin-jc.github.io/links/</guid>
+        <guid>http://localhost:1313/links/</guid>
         <description></description>
         </item>
         <item>
         <title>Search</title>
-        <link>https://kevin-jc.github.io/search/</link>
+        <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://kevin-jc.github.io/search/</guid>
+        <guid>http://localhost:1313/search/</guid>
         <description></description>
         </item>
         
