@@ -7,7 +7,28 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Jiancong Zhu</copyright>
-        <lastBuildDate>Mon, 07 Oct 2024 11:04:20 -0500</lastBuildDate><atom:link href="https://kevin-jc-github.github.io/kevin-jc.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 07 Oct 2024 11:19:15 -0500</lastBuildDate><atom:link href="https://kevin-jc-github.github.io/kevin-jc.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Internship</title>
+        <link>https://kevin-jc-github.github.io/kevin-jc.github.io/p/internship/</link>
+        <pubDate>Mon, 07 Oct 2024 11:19:15 -0500</pubDate>
+        
+        <guid>https://kevin-jc-github.github.io/kevin-jc.github.io/p/internship/</guid>
+        <description>&lt;h1 id=&#34;internship-experience&#34;&gt;Internship Experience
+&lt;/h1&gt;&lt;h2 id=&#34;apexus-tech--software-development-engineer-intern&#34;&gt;Apexus-Tech | Software Development Engineer Intern
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Jersey City, New Jersey&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;July 2024 – October 2024&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;During my internship at Apexus-Tech, I was responsible for developing and backtesting quantitative trading strategies using the Backtrader framework. I gained hands-on experience in implementing trade execution through the Interactive Brokers API, enhancing my skills in algorithmic trading.&lt;/p&gt;
+&lt;p&gt;I designed and optimized a Moving Average Crossover trading strategy, conducted real-time trading tests in a simulated market environment, and analyzed the results to make informed adjustments to the strategy. This project improved my ability to work with financial data and think critically about trading strategy performance.&lt;/p&gt;
+&lt;p&gt;Additionally, I researched and deployed Grafana for data visualization, comparing its local deployment with cloud services in terms of cost, performance, and usability. I successfully integrated Grafana with MySQL to provide real-time visualization of financial data, which was instrumental in helping the team make data-driven decisions.&lt;/p&gt;
+&lt;h2 id=&#34;analogix-semiconductor--ic-verification-engineer-intern&#34;&gt;Analogix Semiconductor | IC Verification Engineer Intern
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Suzhou, China&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;July 2022 – September 2022&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At Analogix Semiconductor, I worked as an IC Verification Engineer Intern, where I designed and implemented verification test cases for ASIC design using SystemVerilog and the UVM framework. This role allowed me to deepen my understanding of digital circuit design and verification methodologies.&lt;/p&gt;
+&lt;p&gt;I evaluated the performance of various IP modules, analyzing timing and power data to identify potential improvements. My suggestions for optimization were aimed at enhancing overall module efficiency.&lt;/p&gt;
+&lt;p&gt;Additionally, I gained valuable debugging experience by addressing random test case failures through regression testing. This helped me sharpen my problem-solving skills and allowed me to experience firsthand the iterative nature of hardware design and verification.&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>My_Resume</title>
         <link>https://kevin-jc-github.github.io/kevin-jc.github.io/p/my_resume/</link>
         <pubDate>Mon, 07 Oct 2024 11:04:20 -0500</pubDate>
