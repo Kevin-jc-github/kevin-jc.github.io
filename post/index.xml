@@ -7,7 +7,84 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>Jiancong Zhu</copyright>
-        <lastBuildDate>Sun, 06 Oct 2024 23:36:34 -0500</lastBuildDate><atom:link href="https://kevin-jc-github.github.io/kevin-jc.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 07 Oct 2024 11:04:20 -0500</lastBuildDate><atom:link href="https://kevin-jc-github.github.io/kevin-jc.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>My_Resume</title>
+        <link>https://kevin-jc-github.github.io/kevin-jc.github.io/p/my_resume/</link>
+        <pubDate>Mon, 07 Oct 2024 11:04:20 -0500</pubDate>
+        
+        <guid>https://kevin-jc-github.github.io/kevin-jc.github.io/p/my_resume/</guid>
+        <description>&lt;h1 id=&#34;jiancong-zhu&#34;&gt;Jiancong Zhu
+&lt;/h1&gt;&lt;p&gt;📞 949-867-8697 | 📧 &lt;a class=&#34;link&#34; href=&#34;mailto:jiancoz@u.northwestern.edu&#34; &gt;jiancoz@u.northwestern.edu&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/jiancong-zhu-0397b2224/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;LinkedIn&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://github.com/Kevin-jc-github&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education
+&lt;/h2&gt;&lt;h3 id=&#34;northwestern-university-chicago-il&#34;&gt;Northwestern University, Chicago, IL
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Master of Science in Accelerated Data Science&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Expected Graduation: Aug 2025&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;university-of-california-irvine-irvine-ca&#34;&gt;University of California, Irvine, Irvine, CA
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Engineering&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;Sep 2020 – Jun 2024&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Related Coursework:&lt;/strong&gt; Operating System, Computer Network, Database, Data Structures and Algorithms, Digital Systems&lt;/p&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, Python, C/C++, SQL, JavaScript, HTML/CSS, R&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frameworks:&lt;/strong&gt; SpringBoot, Vue, React, Node.js, Flask, MyBatis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Databases:&lt;/strong&gt; MySQL, MongoDB&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Middlewares:&lt;/strong&gt; Redis, Apache RocketMQ, Sentinel from Alibaba&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Git, Spring Cloud, VS Code, Visual Studio, IntelliJ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience
+&lt;/h2&gt;&lt;h3 id=&#34;apexus-tech&#34;&gt;Apexus-Tech
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Software Development Engineer Intern&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;July 2024 – Oct 2024, Jersey City, New Jersey&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed and backtested quantitative trading strategies using the Backtrader framework, and implemented trade execution via the Interactive Brokers API.&lt;/li&gt;
+&lt;li&gt;Designed and improved a Moving Average Crossover trading strategy, conducted real-time stock trading tests in a simulated market environment, recorded and analyzed the strategy’s performance, and performed optimization adjustments.&lt;/li&gt;
+&lt;li&gt;Researched and deployed the Grafana data visualization tool, exploring differences between Grafana&amp;rsquo;s local deployment and cloud service versions, evaluating their pros and cons in terms of cost, performance, and usability. Integrated it with MySQL to achieve real-time visualization of financial data.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;analogix-semiconductor&#34;&gt;Analogix Semiconductor
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;IC Verification Engineer Intern&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;July 2022 – Sep 2022, Suzhou, China&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed and implemented verification test cases for ASIC design using SystemVerilog and UVM framework.&lt;/li&gt;
+&lt;li&gt;Evaluated the performance of IP modules, analyzed timing and power data, and provided optimization suggestions to enhance performance.&lt;/li&gt;
+&lt;li&gt;Corrected random test case failures through regression testing, gaining real-world debugging experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;related-projects&#34;&gt;Related Projects
+&lt;/h2&gt;&lt;h3 id=&#34;trainticketsys&#34;&gt;TrainTicketSys
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Spring Cloud, Apache RocketMQ, Redis, Vue.js, Git&lt;br&gt;
+&lt;em&gt;May 2024 – Jul 2024&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a railway ticketing system with infrastructure based on JDK 17, SpringBoot 3, and SpringCloud Alibaba, implementing functionalities for member registration, ticket inquiry, and ticket booking.&lt;/li&gt;
+&lt;li&gt;Optimized response time and throughput during high concurrency ticket booking scenarios, achieving a 25x increase in system performance.&lt;/li&gt;
+&lt;li&gt;Resolved cache and database consistency issues.&lt;/li&gt;
+&lt;li&gt;Utilized Apache RocketMQ’s delayed message feature to enable automatic order cancellation for tickets not paid within 10 minutes.&lt;/li&gt;
+&lt;li&gt;Implemented token and CAPTCHA mechanisms to prevent automated ticket booking during high concurrency periods, reducing server load.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;e-commerce-flash-sale-platform&#34;&gt;E-commerce Flash Sale Platform
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Redis, RocketMQ, MyBatis, Git&lt;br&gt;
+&lt;em&gt;Mar 2023 – May 2023&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed an e-commerce platform capable of efficiently handling high-concurrency flash sale events.&lt;/li&gt;
+&lt;li&gt;Implemented caching with Redis and message queuing with Apache RocketMQ to enhance system performance.&lt;/li&gt;
+&lt;li&gt;Optimized system performance for high concurrency scenarios.&lt;/li&gt;
+&lt;li&gt;Managed high traffic during flash sales, ensuring the stability and reliability of the system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;campfinder&#34;&gt;CampFinder
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Node.js, Express, MongoDB, Bootstrap, Passport.js, Git&lt;br&gt;
+&lt;em&gt;Feb 2022 – Apr 2022&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Developed a comprehensive website for creating and managing camping sites using a CRUD design pattern.&lt;/li&gt;
+&lt;li&gt;Developed user features, including user registration and a review system for camping sites, enhancing user interaction.&lt;/li&gt;
+&lt;li&gt;Utilized Node.js and Express.js for backend development, MongoDB for database management, and Bootstrap for optimizing responsive frontend layouts.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;interests&#34;&gt;Interests
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Gym, piano, saxophone, skiing, swimming, hiking, table tennis&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
         <title>Documentation_of_Website</title>
         <link>https://kevin-jc-github.github.io/kevin-jc.github.io/p/documentation_of_website/</link>
         <pubDate>Sun, 06 Oct 2024 23:36:34 -0500</pubDate>
@@ -186,83 +263,6 @@
 &lt;strong&gt;Duration:&lt;/strong&gt; May 2024 - Jul 2024&lt;/p&gt;
 &lt;p&gt;TrainTicketSys is a comprehensive railway ticketing system designed with modern microservice architecture using SpringBoot 3, SpringCloud Alibaba, and JDK 17. The system allows users to register as members, search for available tickets, and complete bookings seamlessly.&lt;/p&gt;
 &lt;p&gt;I optimized the system to improve response time and throughput during peak usage, achieving a 25x increase in performance by refining high-concurrency scenarios. Additionally, I resolved cache and database consistency issues to ensure data accuracy. Leveraging Apache RocketMQ&amp;rsquo;s delayed messaging, I implemented automatic order cancellation for unpaid tickets after a 10-minute window. To safeguard the booking process, I added token and CAPTCHA mechanisms, significantly reducing server load from automated ticket requests.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Resume</title>
-        <link>https://kevin-jc-github.github.io/kevin-jc.github.io/p/resume/</link>
-        <pubDate>Sun, 06 Oct 2024 20:46:29 -0500</pubDate>
-        
-        <guid>https://kevin-jc-github.github.io/kevin-jc.github.io/p/resume/</guid>
-        <description>&lt;h1 id=&#34;jiancong-zhu&#34;&gt;Jiancong Zhu
-&lt;/h1&gt;&lt;p&gt;📞 949-867-8697 | 📧 &lt;a class=&#34;link&#34; href=&#34;mailto:jiancoz@u.northwestern.edu&#34; &gt;jiancoz@u.northwestern.edu&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://www.linkedin.com/in/jiancong-zhu-0397b2224/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;LinkedIn&lt;/a&gt; | &lt;a class=&#34;link&#34; href=&#34;https://github.com/Kevin-jc-github&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;GitHub&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;education&#34;&gt;Education
-&lt;/h2&gt;&lt;h3 id=&#34;northwestern-university-chicago-il&#34;&gt;Northwestern University, Chicago, IL
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Master of Science in Accelerated Data Science&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;Expected Graduation: Aug 2025&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;university-of-california-irvine-irvine-ca&#34;&gt;University of California, Irvine, Irvine, CA
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Bachelor of Science in Computer Engineering&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;Sep 2020 – Jun 2024&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Related Coursework:&lt;/strong&gt; Operating System, Computer Network, Database, Data Structures and Algorithms, Digital Systems&lt;/p&gt;
-&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Languages:&lt;/strong&gt; Java, Python, C/C++, SQL, JavaScript, HTML/CSS, R&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Frameworks:&lt;/strong&gt; SpringBoot, Vue, React, Node.js, Flask, MyBatis&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Databases:&lt;/strong&gt; MySQL, MongoDB&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Middlewares:&lt;/strong&gt; Redis, Apache RocketMQ, Sentinel from Alibaba&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Git, Spring Cloud, VS Code, Visual Studio, IntelliJ&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience
-&lt;/h2&gt;&lt;h3 id=&#34;apexus-tech&#34;&gt;Apexus-Tech
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Software Development Engineer Intern&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;July 2024 – Oct 2024, Jersey City, New Jersey&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Developed and backtested quantitative trading strategies using the Backtrader framework, and implemented trade execution via the Interactive Brokers API.&lt;/li&gt;
-&lt;li&gt;Designed and improved a Moving Average Crossover trading strategy, conducted real-time stock trading tests in a simulated market environment, recorded and analyzed the strategy’s performance, and performed optimization adjustments.&lt;/li&gt;
-&lt;li&gt;Researched and deployed the Grafana data visualization tool, exploring differences between Grafana&amp;rsquo;s local deployment and cloud service versions, evaluating their pros and cons in terms of cost, performance, and usability. Integrated it with MySQL to achieve real-time visualization of financial data.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;analogix-semiconductor&#34;&gt;Analogix Semiconductor
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;IC Verification Engineer Intern&lt;/strong&gt;&lt;br&gt;
-&lt;em&gt;July 2022 – Sep 2022, Suzhou, China&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Designed and implemented verification test cases for ASIC design using SystemVerilog and UVM framework.&lt;/li&gt;
-&lt;li&gt;Evaluated the performance of IP modules, analyzed timing and power data, and provided optimization suggestions to enhance performance.&lt;/li&gt;
-&lt;li&gt;Corrected random test case failures through regression testing, gaining real-world debugging experience.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;related-projects&#34;&gt;Related Projects
-&lt;/h2&gt;&lt;h3 id=&#34;trainticketsys&#34;&gt;TrainTicketSys
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Spring Cloud, Apache RocketMQ, Redis, Vue.js, Git&lt;br&gt;
-&lt;em&gt;May 2024 – Jul 2024&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Developed a railway ticketing system with infrastructure based on JDK 17, SpringBoot 3, and SpringCloud Alibaba, implementing functionalities for member registration, ticket inquiry, and ticket booking.&lt;/li&gt;
-&lt;li&gt;Optimized response time and throughput during high concurrency ticket booking scenarios, achieving a 25x increase in system performance.&lt;/li&gt;
-&lt;li&gt;Resolved cache and database consistency issues.&lt;/li&gt;
-&lt;li&gt;Utilized Apache RocketMQ’s delayed message feature to enable automatic order cancellation for tickets not paid within 10 minutes.&lt;/li&gt;
-&lt;li&gt;Implemented token and CAPTCHA mechanisms to prevent automated ticket booking during high concurrency periods, reducing server load.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;e-commerce-flash-sale-platform&#34;&gt;E-commerce Flash Sale Platform
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; SpringBoot, Redis, RocketMQ, MyBatis, Git&lt;br&gt;
-&lt;em&gt;Mar 2023 – May 2023&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Developed an e-commerce platform capable of efficiently handling high-concurrency flash sale events.&lt;/li&gt;
-&lt;li&gt;Implemented caching with Redis and message queuing with Apache RocketMQ to enhance system performance.&lt;/li&gt;
-&lt;li&gt;Optimized system performance for high concurrency scenarios.&lt;/li&gt;
-&lt;li&gt;Managed high traffic during flash sales, ensuring the stability and reliability of the system.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;campfinder&#34;&gt;CampFinder
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Technologies:&lt;/strong&gt; Node.js, Express, MongoDB, Bootstrap, Passport.js, Git&lt;br&gt;
-&lt;em&gt;Feb 2022 – Apr 2022&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Developed a comprehensive website for creating and managing camping sites using a CRUD design pattern.&lt;/li&gt;
-&lt;li&gt;Developed user features, including user registration and a review system for camping sites, enhancing user interaction.&lt;/li&gt;
-&lt;li&gt;Utilized Node.js and Express.js for backend development, MongoDB for database management, and Bootstrap for optimizing responsive frontend layouts.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;interests&#34;&gt;Interests
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;Gym, piano, saxophone, skiing, swimming, hiking, table tennis&lt;/li&gt;
-&lt;/ul&gt;
 </description>
         </item>
         
