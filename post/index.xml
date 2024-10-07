@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Jiancong(Kevin) Zhu</title>
+        <link>https://kevin-jc.github.io/post/</link>
+        <description>Recent content in Posts on Jiancong(Kevin) Zhu</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>Jiancong Zhu</copyright>
+        <lastBuildDate></lastBuildDate><atom:link href="https://kevin-jc.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    </channel>
+</rss>
